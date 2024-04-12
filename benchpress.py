@@ -13,8 +13,6 @@ import json
 with open(os.path.join(base, "tests", "tests.json")) as f:
     test_config = json.load(f)
 
-loader = unittest.TestLoader()
-
 def get_all_tests(test_suite_or_case, test_list):
     try:
         suite = iter(test_suite_or_case)
@@ -38,6 +36,7 @@ full_total = 0
 test_folders = [os.path.join(base, "tests", folder) for folder in os.listdir(os.path.join(base, "tests")) if os.path.isdir(os.path.join(base, "tests", folder))]
 for folder in test_folders:
     os.chdir(folder)
+    loader = unittest.TestLoader()
     tests = get_all_tests(loader.discover(start_dir=folder, pattern='*'), set())
     test_total = 0
     x = 0
@@ -56,6 +55,7 @@ for folder in test_folders:
     print("\r" + term.move_up + term.clear_eol + "\r" + term.bold + "[*] Ran tests from " + term.blue + term.bold(folder.split(os.path.sep)[-1]) + " " + term.green + f"({x}/{y})" + term.normal)
     print(term.clear_eol + "\r ┗━ " + f"Finished in {term.green}{test_total:.3f}s" + term.normal)
     full_total += test_total
+    del loader, tests
 
 print(term.bold + "-----\n[*] Ran all tests" + term.normal)
 print(f" ┗━ Total time: {term.magenta}{full_total:.3f}s" + term.normal)
