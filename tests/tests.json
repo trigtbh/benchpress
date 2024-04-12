@@ -1,0 +1,6 @@
+{
+    "ticket-to-ride": [
+        "ticket-to-ride/ticket_to_ride_tests.py",
+        "ticket-to-ride/transportation_tests.py"
+    ]
+}

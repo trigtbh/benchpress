@@ -1,0 +1,940 @@
+{
+    "cities":[
+        {
+            "id": 0,
+            "location": [
+                19.35,
+                10.5
+            ],
+            "name": "Atlanta"
+        },
+        {
+            "id": 1,
+            "location": [
+                23.4,
+                3.4
+            ],
+            "name": "Boston"
+        },
+        {
+            "id": 2,
+            "location": [
+                5.8,
+                2.2
+            ],
+            "name": "Calgary"
+        },
+        {
+            "id": 3,
+            "location": [
+                21.6,
+                10.6
+            ],
+            "name": "Charleston"
+        },
+        {
+            "id": 4,
+            "location": [
+                16.95,
+                6.6
+            ],
+            "name": "Chicago"
+        },
+        {
+            "id": 5,
+            "location": [
+                13.75,
+                12.9
+            ],
+            "name": "Dallas"
+        },
+        {
+            "id": 6,
+            "location": [
+                9.65,
+                9.05
+            ],
+            "name": "Denver"
+        },
+        {
+            "id": 7,
+            "location": [
+                14.0,
+                5.1
+            ],
+            "name": "Duluth"
+        },
+        {
+            "id": 8,
+            "location": [
+                9.3,
+                13.45
+            ],
+            "name": "El Paso"
+        },
+        {
+            "id": 9,
+            "location": [
+                8.2,
+                5.3
+            ],
+            "name": "Helena"
+        },
+        {
+            "id": 10,
+            "location": [
+                14.75,
+                13.85
+            ],
+            "name": "Houston"
+        },
+        {
+            "id": 11,
+            "location": [
+                13.75,
+                8.6
+            ],
+            "name": "Kansas City"
+        },
+        {
+            "id": 12,
+            "location": [
+                5.1,
+                10.95
+            ],
+            "name": "Las Vegas"
+        },
+        {
+            "id": 13,
+            "location": [
+                15.45,
+                10.8
+            ],
+            "name": "Little Rock"
+        },
+        {
+            "id": 14,
+            "location": [
+                3.55,
+                12.4
+            ],
+            "name": "Los Angeles"
+        },
+        {
+            "id": 15,
+            "location": [
+                22.5,
+                14.45
+            ],
+            "name": "Miami"
+        },
+        {
+            "id": 16,
+            "location": [
+                21.7,
+                2.0
+            ],
+            "name": "Montreal"
+        },
+        {
+            "id": 17,
+            "location": [
+                18.1,
+                9.6
+            ],
+            "name": "Nashville"
+        },
+        {
+            "id": 18,
+            "location": [
+                17.0,
+                13.55
+            ],
+            "name": "New Orleans"
+        },
+        {
+            "id": 19,
+            "location": [
+                22.15,
+                5.2
+            ],
+            "name": "New York"
+        },
+        {
+            "id": 20,
+            "location": [
+                13.25,
+                10.75
+            ],
+            "name": "Oklahoma City"
+        },
+        {
+            "id": 21,
+            "location": [
+                13.3,
+                7.35
+            ],
+            "name": "Omaha"
+        },
+        {
+            "id": 22,
+            "location": [
+                6.5,
+                12.55
+            ],
+            "name": "Phoenix"
+        },
+        {
+            "id": 23,
+            "location": [
+                20.05,
+                6.3
+            ],
+            "name": "Pittsburgh"
+        },
+        {
+            "id": 24,
+            "location": [
+                2.1,
+                5.05
+            ],
+            "name": "Portland"
+        },
+        {
+            "id": 25,
+            "location": [
+                20.925,
+                9.025
+            ],
+            "name": "Raleigh"
+        },
+        {
+            "id": 26,
+            "location": [
+                15.85,
+                8.45
+            ],
+            "name": "Saint Louis"
+        },
+        {
+            "id": 27,
+            "location": [
+                6.45,
+                8.25
+            ],
+            "name": "Salt Lake City"
+        },
+        {
+            "id": 28,
+            "location": [
+                1.652,
+                9.85
+            ],
+            "name": "San Francisco"
+        },
+        {
+            "id": 29,
+            "location": [
+                9.5,
+                11.3
+            ],
+            "name": "Santa Fe"
+        },
+        {
+            "id": 30,
+            "location": [
+                17.05,
+                3.5
+            ],
+            "name": "Sault St. Marie"
+        },
+        {
+            "id": 31,
+            "location": [
+                2.5,
+                3.8
+            ],
+            "name": "Seattle"
+        },
+        {
+            "id": 32,
+            "location": [
+                19.7,
+                4.1
+            ],
+            "name": "Toronto"
+        },
+        {
+            "id": 33,
+            "location": [
+                2.6,
+                2.6
+            ],
+            "name": "Vancouver"
+        },
+        {
+            "id": 34,
+            "location": [
+                22.35,
+                7.5
+            ],
+            "name": "Washington"
+        },
+        {
+            "id": 35,
+            "location": [
+                11.25,
+                2.35
+            ],
+            "name": "Winnipeg"
+        }
+    ],
+    "tracks": [
+        {
+            "city_1": "Denver",
+            "city_2": "Santa Fe",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Helena",
+            "city_2": "Seattle",
+            "colors": [
+                "Yellow"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Helena",
+            "city_2": "Omaha",
+            "colors": [
+                "Red"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Atlanta",
+            "city_2": "New Orleans",
+            "colors": [
+                "Yellow",
+                "Orange"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Sault St. Marie",
+            "city_2": "Winnipeg",
+            "colors": [
+                "Any"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "New York",
+            "city_2": "Washington",
+            "colors": [
+                "Black",
+                "Orange"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Los Angeles",
+            "city_2": "San Francisco",
+            "colors": [
+                "Pink",
+                "Yellow"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Los Angeles",
+            "city_2": "Phoenix",
+            "colors": [
+                "Any"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Little Rock",
+            "city_2": "New Orleans",
+            "colors": [
+                "Green"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "New York",
+            "city_2": "Pittsburgh",
+            "colors": [
+                "Green",
+                "White"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Helena",
+            "city_2": "Salt Lake City",
+            "colors": [
+                "Pink"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Kansas City",
+            "city_2": "Omaha",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 1
+        },
+        {
+            "city_1": "Seattle",
+            "city_2": "Vancouver",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 1
+        },
+        {
+            "city_1": "El Paso",
+            "city_2": "Santa Fe",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "El Paso",
+            "city_2": "Los Angeles",
+            "colors": [
+                "Black"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Raleigh",
+            "city_2": "Washington",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Portland",
+            "city_2": "Seattle",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 1
+        },
+        {
+            "city_1": "Boston",
+            "city_2": "Montreal",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Duluth",
+            "city_2": "Toronto",
+            "colors": [
+                "Pink"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Houston",
+            "city_2": "New Orleans",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Kansas City",
+            "city_2": "Saint Louis",
+            "colors": [
+                "Blue",
+                "Pink"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Denver",
+            "city_2": "Phoenix",
+            "colors": [
+                "White"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Chicago",
+            "city_2": "Duluth",
+            "colors": [
+                "Red"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Oklahoma City",
+            "city_2": "Santa Fe",
+            "colors": [
+                "Blue"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Atlanta",
+            "city_2": "Charleston",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Little Rock",
+            "city_2": "Saint Louis",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Denver",
+            "city_2": "Salt Lake City",
+            "colors": [
+                "Yellow",
+                "Red"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "El Paso",
+            "city_2": "Houston",
+            "colors": [
+                "Green"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Salt Lake City",
+            "city_2": "San Francisco",
+            "colors": [
+                "White",
+                "Orange"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Calgary",
+            "city_2": "Seattle",
+            "colors": [
+                "Any"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Montreal",
+            "city_2": "Sault St. Marie",
+            "colors": [
+                "Black"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Denver",
+            "city_2": "Kansas City",
+            "colors": [
+                "Orange",
+                "Black"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Dallas",
+            "city_2": "El Paso",
+            "colors": [
+                "Red"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Denver",
+            "city_2": "Helena",
+            "colors": [
+                "Green"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Sault St. Marie",
+            "city_2": "Toronto",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Little Rock",
+            "city_2": "Oklahoma City",
+            "colors": [
+                "Black"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Little Rock",
+            "city_2": "Nashville",
+            "colors": [
+                "White"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Chicago",
+            "city_2": "Pittsburgh",
+            "colors": [
+                "Black",
+                "Orange"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Portland",
+            "city_2": "Salt Lake City",
+            "colors": [
+                "Blue"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Helena",
+            "city_2": "Winnipeg",
+            "colors": [
+                "Blue"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Nashville",
+            "city_2": "Pittsburgh",
+            "colors": [
+                "Yellow"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Pittsburgh",
+            "city_2": "Washington",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Duluth",
+            "city_2": "Sault St. Marie",
+            "colors": [
+                "Any"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Pittsburgh",
+            "city_2": "Raleigh",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Pittsburgh",
+            "city_2": "Toronto",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Calgary",
+            "city_2": "Helena",
+            "colors": [
+                "Any"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Duluth",
+            "city_2": "Omaha",
+            "colors": [
+                "Any",
+                "Green"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Portland",
+            "city_2": "San Francisco",
+            "colors": [
+                "Green",
+                "Pink"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Kansas City",
+            "city_2": "Oklahoma City",
+            "colors": [
+                "Any",
+                "Yellow"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Miami",
+            "city_2": "New Orleans",
+            "colors": [
+                "Red"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Las Vegas",
+            "city_2": "Los Angeles",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Denver",
+            "city_2": "Omaha",
+            "colors": [
+                "Pink"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Denver",
+            "city_2": "Oklahoma City",
+            "colors": [
+                "Red"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Las Vegas",
+            "city_2": "Salt Lake City",
+            "colors": [
+                "Orange"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Dallas",
+            "city_2": "Houston",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 1
+        },
+        {
+            "city_1": "Duluth",
+            "city_2": "Helena",
+            "colors": [
+                "Orange"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Calgary",
+            "city_2": "Winnipeg",
+            "colors": [
+                "White"
+            ],
+            "distance": 6
+        },
+        {
+            "city_1": "Chicago",
+            "city_2": "Omaha",
+            "colors": [
+                "Blue"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "El Paso",
+            "city_2": "Phoenix",
+            "colors": [
+                "Any"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Charleston",
+            "city_2": "Raleigh",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Dallas",
+            "city_2": "Oklahoma City",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Phoenix",
+            "city_2": "Santa Fe",
+            "colors": [
+                "Any"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Atlanta",
+            "city_2": "Nashville",
+            "colors": [
+                "Any"
+            ],
+            "distance": 1
+        },
+        {
+            "city_1": "Atlanta",
+            "city_2": "Raleigh",
+            "colors": [
+                "Any",
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Boston",
+            "city_2": "New York",
+            "colors": [
+                "Yellow",
+                "Red"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Montreal",
+            "city_2": "New York",
+            "colors": [
+                "Blue"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Montreal",
+            "city_2": "Toronto",
+            "colors": [
+                "Any"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Dallas",
+            "city_2": "Little Rock",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Duluth",
+            "city_2": "Winnipeg",
+            "colors": [
+                "Black"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Calgary",
+            "city_2": "Vancouver",
+            "colors": [
+                "Any"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Atlanta",
+            "city_2": "Miami",
+            "colors": [
+                "Blue"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Charleston",
+            "city_2": "Miami",
+            "colors": [
+                "Pink"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Chicago",
+            "city_2": "Saint Louis",
+            "colors": [
+                "Green",
+                "White"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "Chicago",
+            "city_2": "Toronto",
+            "colors": [
+                "White"
+            ],
+            "distance": 4
+        },
+        {
+            "city_1": "Nashville",
+            "city_2": "Saint Louis",
+            "colors": [
+                "Any"
+            ],
+            "distance": 2
+        },
+        {
+            "city_1": "El Paso",
+            "city_2": "Oklahoma City",
+            "colors": [
+                "Yellow"
+            ],
+            "distance": 5
+        },
+        {
+            "city_1": "Nashville",
+            "city_2": "Raleigh",
+            "colors": [
+                "Black"
+            ],
+            "distance": 3
+        },
+        {
+            "city_1": "Pittsburgh",
+            "city_2": "Saint Louis",
+            "colors": [
+                "Green"
+            ],
+            "distance": 5
+        }
+    ]
+}
